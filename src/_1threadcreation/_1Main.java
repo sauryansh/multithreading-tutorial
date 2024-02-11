@@ -2,7 +2,7 @@ package _1threadcreation;
 
 public class _1Main {
     public static void main(String[] args) throws InterruptedException {
-        Thread thread = new Thread( // Thread object creation and it is empty by default, so we need to pass a Runnable object to it.
+        Thread thread = new Thread( // Thread object creation, and it is empty by default, so we need to pass a Runnable object to it.
            new Runnable(){
                @Override
                public void run() {
